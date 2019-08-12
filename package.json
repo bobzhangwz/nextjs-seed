@@ -1,0 +1,42 @@
+{
+  "name": "next-seed",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint --ext .tsx,.js pages/",
+    "lint-fix": "eslint --fix --ext .tsx,.js pages/"
+  },
+  "dependencies": {
+    "@csstools/normalize.css": "^10.1.0",
+    "next": "^9.0.3",
+    "node-sass": "^4.12.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@types/node": "^12.6.9",
+    "@types/react": "^16.8.24",
+    "@types/react-dom": "^16.8.5",
+    "@typescript-eslint/eslint-plugin": "^1.13.0",
+    "@typescript-eslint/parser": "^1.13.0",
+    "@zeit/next-sass": "^1.0.1",
+    "autoprefixer": "^9.6.1",
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb": "^18.0.0",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-loader": "^2.2.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.14.3",
+    "prettier": "^1.18.2",
+    "typescript": "^3.5.3"
+  },
+  "browserslist": [
+    "last 10 version",
+    "> 10%"
+  ]
+}

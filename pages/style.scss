@@ -1,0 +1,15 @@
+@import '~@csstools/normalize.css';
+
+$font-size: 30px;
+
+:root {
+  --some-color: red;
+}
+
+body {
+  font-size: $font-size;
+  color: var(--some-color);
+  border-radius: 40px;
+  display: flex;
+  font-family: "Arial", "Microsoft YaHei", "黑体", "宋体", sans-serif;
+}

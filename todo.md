@@ -42,7 +42,14 @@ https://zhyjor.github.io/2018/07/15/webpack%E5%AE%9E%E8%B7%B5%E4%B9%8B%E4%B8%89%
 ## Dev
  
 1. Jest & Ensyme
-2.  
+2. storybook
+https://github.com/johot/storybook4-cra2-typescript-react-docgen-typescript-demo
+https://www.manuel-schoebel.com/blog/nextjs-typescript-storybook-setup
+3. react-hook
 
+4. responsive
+https://aotu.io/notes/2017/04/28/2017-4-28-CSS-viewport-units/index.html
+https://css-tricks.com/using-a-mixin-to-take-the-math-out-of-responsive-font-sizes/ 
+https://css-tricks.com/snippets/css/fluid-typography/
 
- 
+5. redux

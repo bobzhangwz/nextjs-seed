@@ -53,3 +53,5 @@ https://css-tricks.com/using-a-mixin-to-take-the-math-out-of-responsive-font-siz
 https://css-tricks.com/snippets/css/fluid-typography/
 
 5. redux
+https://github.com/kirill-konshin/next-redux-wrapper
+https://github.com/bmealhouse/next-redux-saga

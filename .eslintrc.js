@@ -10,7 +10,8 @@ module.exports = {
     "indent": "off",
     "@typescript-eslint/indent": ["error", 2],
     "quotes": ["error", "single", {"avoidEscape": true}],
-    "import/no-unresolved": "off"
+    "import/no-unresolved": "off",
+    "import/prefer-default-export": "off"
   },
   "extends": [
     "airbnb-base",

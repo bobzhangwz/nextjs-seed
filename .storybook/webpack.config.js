@@ -9,20 +9,12 @@ module.exports = ({config}) => {
         options: {
           presets: [require.resolve("babel-preset-react-app")]
         }
-      },
-      // Optional
-      {
-        loader: require.resolve('react-docgen-typescript-loader'),
-      },
+      }
     ],
   });
   config.module.rules.push({
     test: /\.scss$/,
-    use: [
-      "style-loader", // 将 JS 字符串生成为 style 节点
-      "css-loader", // 将 CSS 转化成 CommonJS 模块
-      "sass-loader" // 将 Sass 编译成 CSS，默认使用 Node Sass
-    ],
+    use: ["style-loader", "css-loader", "sass-loader"],
     include: path.resolve(__dirname, "../")
   });
   config.module.rules.push(  {
